@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#0B1220"/>
+  <!-- 盾牌：平台与安全 -->
+  <path d="M128 40 L204 72 V138 C204 186 170 212 128 226 C86 212 52 186 52 138 V72 Z"
+        fill="none" stroke="url(#g)" stroke-width="10" stroke-linejoin="round"/>
+  <!-- 三叉网络：编排 · 治理 · 分发 -->
+  <g stroke="url(#g)" stroke-width="7" stroke-linecap="round">
+    <line x1="128" y1="116" x2="128" y2="64"/>
+    <line x1="128" y1="116" x2="82"  y2="162"/>
+    <line x1="128" y1="116" x2="174" y2="162"/>
+  </g>
+  <!-- 底部横线：连接与分发 -->
+  <line x1="92" y1="192" x2="164" y2="192" stroke="url(#g)" stroke-width="7" stroke-linecap="round"/>
+  <g fill="url(#g)">
+    <circle cx="128" cy="64"  r="10"/>
+    <circle cx="82"  cy="162" r="10"/>
+    <circle cx="174" cy="162" r="10"/>
+  </g>
+  <!-- 中心节点内嵌对勾：动作校验通过 -->
+  <circle cx="128" cy="116" r="13" fill="url(#g)"/>
+  <polyline points="121,117 126,122 135,111" fill="none" stroke="#0B1220" stroke-width="4"
+            stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

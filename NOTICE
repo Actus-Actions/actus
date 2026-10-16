@@ -1,0 +1,43 @@
+Actus
+Copyright 2026 Victor
+
+本产品包含、依赖以下第三方与同族软件，其版权声明与许可条款一并保留：
+
+----------------------------------------------------------------------
+vools
+Copyright 2026 Victor
+以 Apache License, Version 2.0 许可。
+https://github.com/vicTop-cw/vools
+
+vools-bridges
+Copyright 2026 Victor
+以 Apache License, Version 2.0 许可。
+
+vools-actus
+Copyright 2026 Victor
+以 Apache License, Version 2.0 许可。
+本项目的执行引擎（解析、校验、执行、工作流、信任模型、可信凭证）
+由该发行包承载。
+----------------------------------------------------------------------
+
+许可沿革（2026-10-13）
+----------------------
+
+Actus 于 2026-10-13 由 AGPL-3.0 改为 Apache License, Version 2.0。
+
+同一版本库 `vools/` 的 NOTICE 文件在 Apache-2.0 声明之外另行附加了
+「仅限非商业用途」的条款。已核实的事实：
+
+  - 该附加条款仅存在于 `vools` 主包的 NOTICE 中；
+  - 承载本项目引擎的 `vools-actus` 发行包目录下**没有** NOTICE 文件，
+    其 pyproject 声明为 `License :: OSI Approved :: Apache Software License`，
+    即纯 Apache-2.0；
+  - `vools` 与 `vools-actus` 的 copyright holder 与本项目一致。
+
+Apache-2.0 第 3 条只允许附加第 4 条列举的通知类内容，不允许对使用、
+修改、分发施加限制，故上述附加条款与所声明的 Apache-2.0 许可相抵触。
+该冲突涉及上游同族仓库的许可一致性，已在
+`docs/45-许可策略审计与Apache化迁移方案.md` 记录为待处置项，
+需法务定性后再决定是否请上游移除相应条款。
+
+在此期间，本项目自身按 Apache License, Version 2.0 使用与分发。

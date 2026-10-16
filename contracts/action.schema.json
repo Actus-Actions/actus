@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Actus-Actions/actus/blob/main/contracts/action.schema.json",
+  "title": "Actus Action Schema（占位）",
+  "description": "动作统一语义 Schema。当前为占位文件，完整定义将随 docs/ 动作规范落地后填充。",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "动作唯一 ID（如 actus.hello）"
+    },
+    "name": {
+      "type": "string",
+      "description": "动作名称"
+    },
+    "version": {
+      "type": "string",
+      "description": "动作版本（语义化版本）"
+    },
+    "trust": {
+      "type": "string",
+      "enum": ["trusted", "audit", "sandbox"],
+      "description": "信任级别"
+    }
+  },
+  "required": ["id", "name", "version"]
+}
